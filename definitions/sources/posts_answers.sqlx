@@ -1,7 +1,7 @@
 config {
   type: "declaration",
   database: "bigquery-public-data",
-  schema: "stackoverflow",
+  schema: "sources",
   name: "posts_answers",
   description: "posts answers table"
 }
