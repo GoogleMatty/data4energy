@@ -1,9 +1,9 @@
 config {
   type: "view",
   schema: "staging",
-  description: "Cleaned version of stackoverflow.posts_questions"
+  description: "Cleaned version of stackoverflow.posts_questions",
+  tags: ["staging"]
 }
-
 select
   id as post_id,
   creation_date as created_at,
